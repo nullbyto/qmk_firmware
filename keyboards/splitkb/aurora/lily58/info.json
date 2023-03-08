@@ -4,6 +4,7 @@
     "maintainer": "splitkb",
     "usb": {
         "vid": "0x8D1D",
+        "pid": "0x9911",
         "device_version": "1.0.0"
     },
     "development_board": "elite_c",
