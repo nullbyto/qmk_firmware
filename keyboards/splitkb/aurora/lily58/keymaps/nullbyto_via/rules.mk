@@ -22,7 +22,7 @@ CONVERT_TO=promicro_rp2040
 # Bootloader selection
 BOOTLOADER = rp2040
 
-WPM_ENABLE = yes
+#WPM_ENABLE = yes # Enables WPM
 SPLIT_KEYBOARD = yes
 OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
 ENCODER_ENABLE = no       # Enables the use of one or more encoders
@@ -34,7 +34,7 @@ ENCODER_ENABLE = no       # Enables the use of one or more encoders
 # # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 # SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 # # if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
-# NKRO_ENABLE = no            # USB Nkey Rollover
+NKRO_ENABLE = yes            # USB Nkey Rollover
 # BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 # RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 # RGBLIGHT_ANIMATIONS = yes

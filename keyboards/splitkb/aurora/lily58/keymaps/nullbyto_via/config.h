@@ -17,12 +17,15 @@
 #pragma once
 
 // User defined
-#define ANIM_ENABLE // for animation on secondary OLED
+// #define ANIM_ENABLE // for animation on secondary OLED
+
 #define OLED_UPDATE_INTERVAL 10
 #define SPLIT_WPM_ENABLE
 #define TAPPING_TERM 150 // Milliseconds for tapping
 #define USB_POLLING_INTERVAL_MS 1
 #define QMK_KEYS_PER_SCAN 12
+#define DEBOUNCE 1
+#define FORCE_NKRO
 
 // VIA
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
