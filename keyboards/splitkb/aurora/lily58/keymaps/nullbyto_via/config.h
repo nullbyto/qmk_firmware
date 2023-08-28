@@ -24,7 +24,6 @@
 #define TAPPING_TERM 150 // Milliseconds for tapping
 #define USB_POLLING_INTERVAL_MS 1
 #define QMK_KEYS_PER_SCAN 12
-#define DEBOUNCE 1
 #define FORCE_NKRO
 
 // VIA
