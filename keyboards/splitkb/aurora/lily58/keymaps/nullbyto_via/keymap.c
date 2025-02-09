@@ -316,7 +316,7 @@ void my_render_logo(void) {
 }
 
 void my_render_logo_text(void) {
-    oled_write_P(PSTR("lily "), false);
+    oled_write_P(PSTR("Amin "), false);
 }
 
 void my_render_kb_LED_state(void) {
